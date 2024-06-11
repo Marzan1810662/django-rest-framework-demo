@@ -7,6 +7,7 @@ from rest_framework import status
 
 # Create your views here.
 
+# class based views
 @api_view(['GET','POST'])
 def index(request):
     course = {
