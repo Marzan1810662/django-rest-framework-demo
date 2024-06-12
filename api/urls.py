@@ -6,5 +6,5 @@ urlpatterns = [
     path('index/', index),
     path('person/', person),
     path('person/<int:pk>', persondetails),
-    path('books/', BookView.as_view())
+    path('books/', BookView.as_view(), name='book-list-create')
 ]
