@@ -11,5 +11,5 @@ class Book(models.Model):
         return f'{self.title}'
     
     class Meta:
-        verbose_name: 'Book'
+        verbose_name= 'Book'
         
